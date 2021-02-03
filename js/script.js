@@ -16,21 +16,20 @@ $(document).ready(function () {
 
     //--------- Scroll navigation ---------------//
 
-    $("#mainNav ul a, .logo a, .ctl a, .skill a").click(function (e) {
+    // $("#mainNav ul a, .logo a, .ctl a, .skill a").click(function (e) {
 
 
-        var full_url = this.href;
-        var parts = full_url.split("#");
-        var trgt = parts[1];
-        var target_offset = $("#" + trgt).offset();
-        var target_top = target_offset.top;
+       // var full_url = this.href;
+       // var parts = full_url.split("#");
+       // var trgt = parts[1];
+       // var target_offset = $("#" + trgt).offset();
+       // var target_top = target_offset.top;
 
 
 
-        $('html,body').animate({ scrollTop: target_top - 70 }, 800);
-        return false;
-
-    });
+       // $('html,body').animate({ scrollTop: target_top - 70 }, 800);
+      //  return false;
+    //});
 
 
     //-------------Highlight the current section in the navigation bar------------//
