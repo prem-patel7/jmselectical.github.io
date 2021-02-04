@@ -112,7 +112,7 @@ nav#mainNav a.active:after{
     content: "";
     display: block;
     position: absolute;
-    right: 15px;
+
     top: 43px;
     width: 14px;
 	z-index: 0;
